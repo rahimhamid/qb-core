@@ -480,8 +480,8 @@ QBShared.Gangs = {
             },
         },
 	},
-	["lostmc"] = {
-		label = "The Lost MC",
+	["onlytrustfamily"] = {
+		label = "only trust family",
 		grades = {
             ['0'] = {
                 name = "Recruit"
@@ -498,8 +498,8 @@ QBShared.Gangs = {
             },
         },
 	},
-	["ballas"] = {
-		label = "Ballas",
+	["montanacartel"] = {
+		label = "montanacartel",
 		grades = {
             ['0'] = {
                 name = "Recruit"
@@ -536,6 +536,24 @@ QBShared.Gangs = {
 	},
 	["cartel"] = {
 		label = "Cartel",
+		grades = {
+            ['0'] = {
+                name = "Recruit"
+            },
+			['1'] = {
+                name = "Enforcer"
+            },
+			['2'] = {
+                name = "Shot Caller"
+            },
+			['3'] = {
+                name = "Boss",
+				isboss = true
+            },
+        },
+	},
+	["lafamilia"] = {
+		label = "Lafamilia",
 		grades = {
             ['0'] = {
                 name = "Recruit"
@@ -598,7 +616,7 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = "Freelancer",
-                payment = 10
+                payment = 20
             },
         },
 	},
@@ -607,52 +625,82 @@ QBShared.Jobs = {
 		defaultDuty = true,
 		grades = {
             ['0'] = {
-                name = "Recruit",
-                payment = 50
+                name = "Pcso",
+                payment = 80
             },
 			['1'] = {
-                name = "Officer",
-                payment = 75
+                name = "Constable",
+                payment = 100
             },
 			['2'] = {
                 name = "Sergeant",
-                payment = 100
+                payment = 105
             },
 			['3'] = {
-                name = "Lieutenant",
-                payment = 125
+                name = "Inspector",
+                payment = 110
             },
 			['4'] = {
-                name = "Chief",
+                name = "SuperIntendent",
+                payment = 115
+			},
+			['5'] = {
+                name = "Commander",
+                payment = 120
+			},
+			['6'] = {
+                name = "Deputy Commissioner",
+                payment = 125
+			},
+			['7'] = {
+                name = "Commissioner",
 				isboss = true,
-                payment = 150
+                payment = 130
             },
         },
+	},
+	["gundealer"] = {
+		label = "Blackmarket",
+		defaultDuty = true,
+		grades = {
+			[1] = {
+				label = "Dealer",
+				payment = 1000,
+			},
+			[2] = {
+				label = "Boss",
+				payment = 2000,
+			},
+		}
 	},
 	["ambulance"] = {
 		label = "EMS",
 		defaultDuty = true,
 		grades = {
             ['0'] = {
-                name = "Recruit",
-                payment = 50
+                name = "tp",
+                payment = 60
             },
 			['1'] = {
-                name = "Paramedic",
-                payment = 75
+                name = "paramedic",
+                payment = 65
             },
 			['2'] = {
-                name = "Doctor",
-                payment = 100
+                name = "td",
+                payment = 70
             },
 			['3'] = {
-                name = "Surgeon",
-                payment = 125
+                name = "doctor",
+                payment = 75
             },
 			['4'] = {
                 name = "Chief",
+                payment = 80
+			},
+			['5'] = {
+                name = "Boss",
 				isboss = true,
-                payment = 150
+                payment = 85
             },
         },
 	},
@@ -689,24 +737,24 @@ QBShared.Jobs = {
 		grades = {
             ['0'] = {
                 name = "Recruit",
-                payment = 50
+                payment = 20
             },
 			['1'] = {
                 name = "Driver",
-                payment = 75
+                payment = 25
             },
 			['2'] = {
                 name = "Event Driver",
-                payment = 100
+                payment = 30
             },
 			['3'] = {
                 name = "Sales",
-                payment = 125
+                payment = 35
             },
 			['4'] = {
                 name = "Manager",
 				isboss = true,
-                payment = 150
+                payment = 40
             },
         },
 	},
