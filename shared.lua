@@ -850,8 +850,8 @@ QBShared.Jobs = {
             },
         },
 	},
-	["man customs"] = {
-		label = "Man Customs",
+	["mancustoms"] = {
+		label = "Mancustoms",
 		defaultDuty = true,
 		grades = {
             ['0'] = {
