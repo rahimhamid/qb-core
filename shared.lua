@@ -850,17 +850,17 @@ QBShared.Jobs = {
             },
         },
 	},
-	["sweetlifetuneplace"] = {
-		label = "Sweetlifetuneplace",
+	["man customs"] = {
+		label = "Man Customs",
 		defaultDuty = true,
 		grades = {
             ['0'] = {
                 name = "Recruit",
-                payment = 50
+                payment = 70
             },
 			['1'] = {
                 name = "Novice",
-                payment = 75
+                payment = 80
             },
 			['2'] = {
                 name = "Experienced",
@@ -873,7 +873,7 @@ QBShared.Jobs = {
 			['4'] = {
                 name = "Manager",
 				isboss = true,
-                payment = 150
+                payment = 200
             },
         },
 	},
