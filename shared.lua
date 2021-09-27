@@ -4801,10 +4801,10 @@ QBShared.Vehicles = {
 		["name"] = "18phantom",
 		["brand"] = "18phantom",
 		["model"] = "18phantom",
-		["price"] = 180000,
+		["price"] = 1,
 		["category"] = "sports",
 		["hash"] = `18phantom`,
-		["shop"] = "custom",
+		["shop"] = "luxury",
 	},
 	["futo2"] = {
 		["name"] = "Futo GTX",
